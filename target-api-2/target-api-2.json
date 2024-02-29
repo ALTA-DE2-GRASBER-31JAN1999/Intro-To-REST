@@ -1,0 +1,132 @@
+{
+	"id": "4caed9c5-6b70-4f17-9611-c52f4a2eb93c",
+	"name": "target-api-2",
+	"timestamp": "2024-02-29T14:38:37.325Z",
+	"collection_id": "33253848-857366c7-4186-4d4e-ba8b-a155a67e5352",
+	"folder_id": 0,
+	"environment_id": "33253848-d65d23f5-540a-40f7-afa2-d8b258e73094",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-29T14:38:30.670Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "ce192b43-1b2d-411a-94b0-a4693c57205d",
+			"name": "nama orang",
+			"url": "https://swapi.dev/api/people/1/",
+			"time": 1766,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1766
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "8818b45c-315e-4a2b-9d6b-425b3e88410b",
+			"name": "planet",
+			"url": "https://swapi.dev/api/planets/1/",
+			"time": 868,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				868
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "f07a7988-dd91-4e9b-a646-1e77f8082910",
+			"name": "nama kapal perang",
+			"url": "https://swapi.dev/api/starships/10/",
+			"time": 327,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				327
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "5c5847f4-11aa-4966-ad0a-0fe96f083a9d",
+			"name": "kendaraan",
+			"url": "https://swapi.dev/api/vehicles/18/",
+			"time": 584,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				584
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "81b52baa-dd5d-441e-8d68-c87337414895",
+			"name": "judul film",
+			"url": "https://swapi.dev/api/films/1/",
+			"time": 1109,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				1109
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 4654,
+	"collection": {
+		"requests": [
+			{
+				"id": "ce192b43-1b2d-411a-94b0-a4693c57205d",
+				"method": "GET"
+			},
+			{
+				"id": "8818b45c-315e-4a2b-9d6b-425b3e88410b",
+				"method": "GET"
+			},
+			{
+				"id": "f07a7988-dd91-4e9b-a646-1e77f8082910",
+				"method": "GET"
+			},
+			{
+				"id": "5c5847f4-11aa-4966-ad0a-0fe96f083a9d",
+				"method": "GET"
+			},
+			{
+				"id": "81b52baa-dd5d-441e-8d68-c87337414895",
+				"method": "GET"
+			}
+		]
+	}
+}

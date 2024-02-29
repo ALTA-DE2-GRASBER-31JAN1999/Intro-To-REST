@@ -1,0 +1,132 @@
+{
+	"id": "9f2a0766-5f45-4192-9e62-e02a21c22c1b",
+	"name": "API documentation",
+	"timestamp": "2024-02-29T14:28:49.185Z",
+	"collection_id": "33253848-bd5f42e1-41e2-4549-837f-2c7225d44187",
+	"folder_id": "33253848-315f8afb-1305-46e2-b471-14bfafec193e",
+	"environment_id": "33253848-d65d23f5-540a-40f7-afa2-d8b258e73094",
+	"totalPass": 0,
+	"delay": 0,
+	"persist": true,
+	"status": "finished",
+	"startedAt": "2024-02-29T14:28:37.146Z",
+	"totalFail": 0,
+	"results": [
+		{
+			"id": "df0e3a17-b6e4-4c12-9410-c3d0f001d4d3",
+			"name": "TESLA",
+			"url": "https://newsapi.org/v2/everything?q=tesla&from=2024-01-29&sortBy=publishedAt&apiKey=2e9a8624e0ca45ae9f1acdc6128c873e",
+			"time": 3149,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				3149
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "c5fbff8a-3ef0-4bf9-918e-f0d2bf430026",
+			"name": "GET apple news",
+			"url": "https://api.getpostman.com/collections/{{collectionId}}",
+			"time": 2473,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				2473
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "2bda8623-2f75-49c4-b7c0-71d4628ccdd8",
+			"name": "GET US BUSSINES",
+			"url": "https://newsapi.org/v2/top-headlines?country=us&category=business&apiKey=2e9a8624e0ca45ae9f1acdc6128c873e",
+			"time": 910,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				910
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "e9d4db5d-987b-4e31-8778-020da46ac17f",
+			"name": "TECH RUNCH NEWS",
+			"url": "https://newsapi.org/v2/top-headlines?sources=techcrunch&apiKey=2e9a8624e0ca45ae9f1acdc6128c873e",
+			"time": 894,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				894
+			],
+			"allTests": [
+				{}
+			]
+		},
+		{
+			"id": "bba22ef7-7d85-4b3b-80d8-b0d6d4b060fa",
+			"name": "GET all news",
+			"url": "https://api.getpostman.com/collections",
+			"time": 905,
+			"responseCode": {
+				"code": 401,
+				"name": "Unauthorized"
+			},
+			"tests": {},
+			"testPassFailCounts": {},
+			"times": [
+				905
+			],
+			"allTests": [
+				{}
+			]
+		}
+	],
+	"count": 1,
+	"totalTime": 8331,
+	"collection": {
+		"requests": [
+			{
+				"id": "df0e3a17-b6e4-4c12-9410-c3d0f001d4d3",
+				"method": "GET"
+			},
+			{
+				"id": "c5fbff8a-3ef0-4bf9-918e-f0d2bf430026",
+				"method": "GET"
+			},
+			{
+				"id": "2bda8623-2f75-49c4-b7c0-71d4628ccdd8",
+				"method": "GET"
+			},
+			{
+				"id": "e9d4db5d-987b-4e31-8778-020da46ac17f",
+				"method": "GET"
+			},
+			{
+				"id": "bba22ef7-7d85-4b3b-80d8-b0d6d4b060fa",
+				"method": "GET"
+			}
+		]
+	}
+}
